@@ -83,3 +83,18 @@ function pseudocode(arr, value) {
   }
   
   pseudocode([1,2,3,4,5], 4);
+
+  function addup(n){
+    let total = 0;
+    for(let i =1; i<= n; i++){
+        total += i;
+    }
+    return total;
+}
+console.log(addup(6))
+
+function add(n){
+    return n * (n + 1) / 2;
+}
+
+console.log(add(6))
